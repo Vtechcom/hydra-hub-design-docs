@@ -11,7 +11,7 @@ Các nhà phát triển khi có nhu cầu sử dụng node hydra để triển k
 
 **A- System Diagram của giải pháp Hydra HUB**
 
-![][image1]
+![Sơ đồ mô tả kiến trúc triển khai của hệ thống Hydra HUB, giải pháp kết nối giữa client (Consumer Client) và các node Hydra (Hydra Nodes) thông qua proxy.][image1]
 
 Hình 01: Sơ đồ mô tả kiến trúc triển khai của hệ thống Hydra HUB, giải pháp kết nối giữa client (Consumer Client) và các node Hydra (Hydra Nodes) thông qua proxy.
 
@@ -105,3 +105,9 @@ Hình ảnh 02: Sơ đồ sequence diagram của việc Client giao tiếp với
   * Trên Dashboard UI Hexcore, gửi giao dịch đăng ký làm provider tới Smart Contract của Hydra HUB  
   * Smart contract xác nhận thông tin hợp lệ và thêm vào danh sách các provider của Hydra HUB  
   * Hydra HUB System đồng bộ dữ liệu của các provider và listing thông tin provider lên community
+
+[image1]: ../../assets/images/image1.png
+[image2]: ../../assets/images/image2.png
+[image3]: ../../assets/images/image3.png
+[image4]: ../../assets/images/image4.png
+[image5]: ../../assets/images/image5.png
