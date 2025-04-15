@@ -11,7 +11,7 @@ Hydra Hubは、クライアント（Consumer Client）とHydraノードを、さ
 
 ## A - Hydra HUBソリューションのシステム図
 
-!\[Hydra HUBシステムの展開アーキテクチャを示す図。クライアント（Consumer Client）とHydraノードをプロキシを介して接続するソリューション。\]\[image1]
+![Hydra HUBシステムの展開アーキテクチャを示す図。クライアント（Consumer Client）とHydraノードをプロキシを介して接続するソリューション。][image1]
 
 **図01**：Hydra HUBシステムの展開アーキテクチャを示す図。クライアント（Consumer Client）とHydraノードをプロキシを介して接続するソリューション。
 
@@ -53,7 +53,7 @@ Hydra Hubは、クライアント（Consumer Client）とHydraノードを、さ
    - Hydra HUBサービスがプロキシを介してリクエストをHydraノードに転送。
    - Hydraノードがリクエストを処理し、プロキシを介して結果を返します。
 
-**!\[\]\[image2\]**
+**![][image2]**
 
 **図02**：クライアント、Hydra Hub、Hydraノード間の相互作用を示すシーケンス図。
 
@@ -70,7 +70,7 @@ Hydra Hubは、クライアント（Consumer Client）とHydraノードを、さ
 4. **コンシューマー**：開発者/ユーザーがコンシューマーとして登録可能。
 5. **Hydra HUB**：ノードの割り当てとHydra HUBへの直接支払い処理。
 
-**!\[\]\[image3\]**
+**![][image3]**
 
 **図03**：フェーズIのHydra HUBの集中型（基本）モデルのアーキテクチャ図。
 
@@ -88,7 +88,7 @@ Hydra Hubは、クライアント（Consumer Client）とHydraノードを、さ
     - プロバイダー識別。
     - …
 
-**!\[\]\[image4\]**
+**![][image4]**
 
 **図04**：フェーズIIの複数のプロバイダーによる集中型モデルのアーキテクチャ図。
 
@@ -99,7 +99,7 @@ Hydra Hubは、クライアント（Consumer Client）とHydraノードを、さ
   - Hydraノード割り当てアルゴリズムをオフチェーンからスマートコントラクトに移行。
   - 支払いプロセス（料金徴収、報酬分配）をスマートコントラクトに移行。
 
-**!\[\]\[image5\]**
+**![][image5]**
 
 **図05**：Hydra HUBのHydraノード割り当て分散化のアーキテクチャ図。
 
