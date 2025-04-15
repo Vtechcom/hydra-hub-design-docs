@@ -15,4 +15,12 @@ Welcome to the official documentation repository for the **Hydra Hub** project! 
 ## Documentation Structure
 
 - [Hydra Hub System Design and Roadmap](./docs/guides/index-en.md)
-- [Frequently Asked Questions (FAQ)](./docs/faq/index.md)
+
+##
+# [JA] Hydra Hub 設計ドキュメント
+
+**Hydra Hub** プロジェクトの公式ドキュメントリポジトリへようこそ！ここでは、システムの設計と実装に関する詳細なガイド、よくある質問（FAQ）、および参考資料を保管しています。
+
+## ドキュメント構成
+
+- [Hydra Hub システム設計とロードマップ](./docs/guides/index-ja.md)
