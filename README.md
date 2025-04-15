@@ -14,5 +14,5 @@ Welcome to the official documentation repository for the **Hydra Hub** project! 
 
 ## Documentation Structure
 
-- [Hydra Hub System Design and Roadmap](./docs/guides/index.md)
+- [Hydra Hub System Design and Roadmap](./docs/guides/index-en.md)
 - [Frequently Asked Questions (FAQ)](./docs/faq/index.md)
