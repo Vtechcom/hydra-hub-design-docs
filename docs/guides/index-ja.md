@@ -2,25 +2,25 @@
 
 Hydra Hubは、クライアント（Consumer Client）とHydraノードを、さまざまなプロバイダーによって提供されるプロキシ（HydraHUB）を介して接続する技術ソリューションです。
 
-アプリケーションを展開するためにHydraノードを必要とする開発者は、Consumer Clientとして登録するだけで、プロバイダーからHydraサービスを簡単かつ迅速に利用できます。このアプローチは、自己ホスティングに比べて大幅にコストを削減し、以下のような課題を解消します：
-
-1. Cardanoノードとの複雑な同期。
-2. 手動でのキー管理とセキュリティ。
-3. 監視とエラー処理。
-4. Hydraノード間の不安定な通信の管理。
+Hydraノードを利用してアプリケーションを展開したい開発者は、Consumer Clientとして登録するだけで、各プロバイダーが提供するHydraサービスをシンプルかつ迅速に利用・導入することができます。
+自前で運用する場合に比べて大幅にコストを削減でき、以下のような課題を解消します：
+・複雑なCardanoノードとの同期処理
+・鍵管理やセキュリティ対応の手動運用
+・監視およびエラー処理。
+・不安定なHydraノード間の通信処理
 
 ## A - Hydra HUBソリューションのシステム図
 
-![Hydra HUBシステムの展開アーキテクチャを示す図。クライアント（Consumer Client）とHydraノードをプロキシを介して接続するソリューション。][image1]
+![][image1]
 
-**図01**: Hydra HUBシステムの展開アーキテクチャを示す図。クライアント（Consumer Client）とHydraノードをプロキシを介して接続するソリューション。
+**図01**:  Hydra HUBシステムの導入アーキテクチャを示す図であり、プロキシを介してクライアント（Consumer Client）とHydraノード（Hydra Nodes）を接続するソリューションです。
 
 **説明**:
 
 1. **Consumer Client**:
-    * **DApps (UI)**: コンシューマーが使用する分散型アプリケーション（DApps）。
+    * **DApps (UI)**: ユーザー（Consumer）が利用する分散型アプリケーション（Decentralized Apps）。
     * WebSocket（WS）またはHTTPを介して、APIキーを使用してHydra HUBサービスと通信します。
-    * 例: GETリクエストをhttps://api-key-cb3ec.hydranode.io/commitsに送信。
+    * 例：GETリクエストの送信　 https://api-key-cb3ec.hydranode.io/commits.
 
 2. **Hydra HUB**:
     * **Hydra HUBサービス**: 以下を管理する中央サービス：
